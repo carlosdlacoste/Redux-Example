@@ -1,8 +1,8 @@
-import { UseSelector } from "react-redux"
+import { useSelector } from "react-redux"
 
 export const Header = () => {
     const user = useSelector((state) => state.user)
-    
+
     return(
         <header>
             <h1>Redux Toolkit Example</h1>
