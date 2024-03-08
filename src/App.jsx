@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { addUser } from './redux/userSlice'
 import { Header } from "./components/header"
-// import { Email } from "./components/email"
+import { Email } from "./components/email"
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header/>
-      {/* <Email/> */}
+      <Email/>
     </>
   )
 }
