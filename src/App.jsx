@@ -18,7 +18,6 @@ function App() {
     
     dispatch(getUser())
 
-    console.log(user)
   }, [])
 
   return (
